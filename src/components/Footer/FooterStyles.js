@@ -47,6 +47,7 @@ export const SocialIconsContainer = styled.div`
 max-width: 1040px;
 display: flex;
 justify-content: space-between;
+animation: float 5s ease-in-out infinite;
 
 @media ${props => props.theme.breakpoints.md}{
   display: flex;
